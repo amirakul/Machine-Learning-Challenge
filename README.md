@@ -37,4 +37,6 @@ In conclusion, after analyzing test results, one can conclude that features with
 
 All the scores before and after sorted features have been summarized in the table below:
 
-![Scoretable.png](Images/analysis2.png)
+![Scoretable.png](Images/Scoretable.png)
+
+Some highlights of the tuning worth knowing is that GridSearchCV suggested best parameters like number of estimators (n_estimators) is 100, and when min_samples_split is 3, model performs the most efficient. Therefore, using this tuning, random forest model was rerun to get minor increase in  training and testing scores for KNN, Logistic Regression, and Random Forest models. On the other hand, using sorted features for models like Linear, RBF, Poly, and Decision 
