@@ -24,3 +24,6 @@ Among trained models, random forest model had the heighest testing and training 
 ![Sorted_features.png](Images/Sorted_features.png)
 
 ### Reporting
+Based on models results after tuning, random forest model performed the best. Here's the result of testing before and after sorted features in tuning:
+Testing Result wit
+![analysis.png](Images/analysis1.png)
