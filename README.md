@@ -17,5 +17,10 @@ This dataset has an extensive data dictionary, which can be accessed here. Highl
 The process of analyzing and arriving to conclusion involves these main 3 steps:
 
 ### Preprocess the Data
+Data was preprocessed with MinMaxScaller. Then, different models like linear, RBF, Poly,Decision Tree, Random Forest,Logistic Regression and KNN were trained. 
 ### Tune Model Parameters
+Among trained models, random forest model had the heighest testing and training data scores. Therefore, this model was chosen to be tuned by running feature importance test, which resulted in the following:
+
+![Sorted_features.png](Images/Sorted_features.png)
+
 ### Reporting
