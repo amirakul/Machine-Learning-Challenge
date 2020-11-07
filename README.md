@@ -33,4 +33,5 @@ Based on models results after tuning, random forest model performed the best. He
 
 ![analysis2.png](Images/analysis2.png)
 
-In conclusion, after analyzing test results, one can conclude that features with the greatest importance make random forest model work efficiently and get higher
+In conclusion, after analyzing test results, one can conclude that features with the greatest importance make random forest model work efficiently and get higher/same presicion results. 
+
